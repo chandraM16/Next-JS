@@ -6,5 +6,5 @@ export default function ProductLayout({ children }: { children: ReactNode }) {
     <h2>Product layout heading</h2>
     {children}
     <h2>Product layout footer</h2>
-    </>;
+    </>; 
 }

@@ -17,10 +17,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <h2>Heading 1</h2>
         </header>
         {children}
+        <footer style={{ background: "beige", color: "black" }}>
+          <h2>Footer</h2>
+        </footer>
       </body>
-      <footer style={{ background: "beige", color: "black" }}>
-        <h2>Footer</h2>
-      </footer>
     </html>
   );
 }
